@@ -89,7 +89,7 @@ void tx_application_thread()
 
 		}*/
 while(1){
-	sleep(3);
+	sleep(5);
 
 	while (lwip_write(sock, "temp", SEND_BUFSIZE) >= 0) {
 		break;
